@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BeamsChatkit'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'BeamsChatkit SDK'
   s.homepage         = 'https://github.com/pusher/beams-chatkit-swift'
   s.license          = 'MIT'
