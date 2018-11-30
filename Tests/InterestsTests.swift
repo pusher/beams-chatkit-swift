@@ -1,5 +1,5 @@
 import XCTest
-@testable import PushNotifications
+@testable import BeamsChatkit
 
 class InterestsTests: XCTestCase {
     let interests = Interests(interests: ["a", "b", "c"])

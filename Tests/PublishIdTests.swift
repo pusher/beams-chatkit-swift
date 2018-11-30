@@ -1,5 +1,5 @@
 import XCTest
-@testable import PushNotifications
+@testable import BeamsChatkit
 
 class PublishIdTests: XCTestCase {
     var userInfo: [AnyHashable: Any]!

@@ -1,5 +1,5 @@
 import Cocoa
-import PushNotifications
+import BeamsChatkit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {

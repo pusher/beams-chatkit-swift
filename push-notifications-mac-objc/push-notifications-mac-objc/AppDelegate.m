@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-@import PushNotifications;
+@import BeamsChatkit;
 
 @interface AppDelegate ()
 

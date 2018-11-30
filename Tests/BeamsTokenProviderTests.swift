@@ -1,6 +1,6 @@
 import XCTest
 import OHHTTPStubs
-@testable import PushNotifications
+@testable import BeamsChatkit
 
 class BeamsTokenProviderTests: XCTestCase {
 

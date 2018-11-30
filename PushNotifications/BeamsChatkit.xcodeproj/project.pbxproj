@@ -42,7 +42,7 @@
 		A1482A5C218328C300F19A4E /* AuthDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1482A5B218328C300F19A4E /* AuthDataTests.swift */; };
 		A1482A5E218329B900F19A4E /* BeamsTokenProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1482A5D218329B900F19A4E /* BeamsTokenProviderTests.swift */; };
 		A1504E17206B9D98002D1E74 /* EventTypeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1504E16206B9D98002D1E74 /* EventTypeHandler.swift */; };
-		A155BFBD1F9E38040070A609 /* PushNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A155BFB31F9E38040070A609 /* PushNotifications.framework */; };
+		A155BFBD1F9E38040070A609 /* BeamsChatkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A155BFB31F9E38040070A609 /* BeamsChatkit.framework */; };
 		A155BFC41F9E38040070A609 /* PushNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = A155BFB61F9E38040070A609 /* PushNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15B55CF2029C06D009D6A1A /* MetadataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B55CE2029C06D009D6A1A /* MetadataTests.swift */; };
 		A16782551FA0EA2D00A193DF /* Reason.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16782541FA0EA2C00A193DF /* Reason.swift */; };
@@ -116,10 +116,10 @@
 		A1482A5B218328C300F19A4E /* AuthDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthDataTests.swift; path = ../../Tests/AuthDataTests.swift; sourceTree = "<group>"; };
 		A1482A5D218329B900F19A4E /* BeamsTokenProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BeamsTokenProviderTests.swift; path = ../../Tests/BeamsTokenProviderTests.swift; sourceTree = "<group>"; };
 		A1504E16206B9D98002D1E74 /* EventTypeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventTypeHandler.swift; path = ../../Sources/EventTypeHandler.swift; sourceTree = "<group>"; };
-		A155BFB31F9E38040070A609 /* PushNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PushNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A155BFB31F9E38040070A609 /* BeamsChatkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeamsChatkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155BFB61F9E38040070A609 /* PushNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotifications.h; sourceTree = "<group>"; };
 		A155BFB71F9E38040070A609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A155BFBC1F9E38040070A609 /* PushNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A155BFBC1F9E38040070A609 /* BeamsChatkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamsChatkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155BFC31F9E38040070A609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15B55CE2029C06D009D6A1A /* MetadataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MetadataTests.swift; path = ../../Tests/MetadataTests.swift; sourceTree = "<group>"; };
 		A16782541FA0EA2C00A193DF /* Reason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reason.swift; path = ../../Sources/Reason.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		A1E78E302020AEF400DD94B2 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Register.swift; path = ../../Sources/Register.swift; sourceTree = "<group>"; };
 		A1E80009201A213000467EB9 /* ReportEventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportEventType.swift; path = ../../Sources/ReportEventType.swift; sourceTree = "<group>"; };
 		A1E80013201A3DAC00467EB9 /* PublishId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PublishId.swift; path = ../../Sources/PublishId.swift; sourceTree = "<group>"; };
-		A1ED00141F9E392700A029F2 /* PushNotificationsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushNotificationsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1ED00141F9E392700A029F2 /* BeamsChatkitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeamsChatkitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		A1EFF5C8207B7E78006C3004 /* RemoteNotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemoteNotificationType.swift; path = ../../Sources/RemoteNotificationType.swift; sourceTree = "<group>"; };
 		A1F0E941219B18B800D32363 /* PushNotificationsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PushNotificationsError.swift; path = ../../Sources/PushNotificationsError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,7 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A155BFBD1F9E38040070A609 /* PushNotifications.framework in Frameworks */,
+				A155BFBD1F9E38040070A609 /* BeamsChatkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +177,8 @@
 		A155BFA91F9E38040070A609 = {
 			isa = PBXGroup;
 			children = (
-				A155BFB51F9E38040070A609 /* PushNotifications */,
-				A155BFC01F9E38040070A609 /* PushNotificationsTests */,
+				A155BFB51F9E38040070A609 /* BeamsChatkit */,
+				A155BFC01F9E38040070A609 /* BeamsChatkitTests */,
 				A155BFB41F9E38040070A609 /* Products */,
 				A1197BD5206266D100FD7335 /* Frameworks */,
 			);
@@ -187,13 +187,13 @@
 		A155BFB41F9E38040070A609 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A155BFB31F9E38040070A609 /* PushNotifications.framework */,
-				A155BFBC1F9E38040070A609 /* PushNotificationsTests.xctest */,
+				A155BFB31F9E38040070A609 /* BeamsChatkit.framework */,
+				A155BFBC1F9E38040070A609 /* BeamsChatkitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A155BFB51F9E38040070A609 /* PushNotifications */ = {
+		A155BFB51F9E38040070A609 /* BeamsChatkit */ = {
 			isa = PBXGroup;
 			children = (
 				A104B3A020F75C9000587100 /* Array+CalculateMD5Hash.swift */,
@@ -236,10 +236,10 @@
 				A1482A532180A47900F19A4E /* UserPersistable.swift */,
 				A1482A552180A59800F19A4E /* UserValidationError.swift */,
 			);
-			path = PushNotifications;
+			path = BeamsChatkit;
 			sourceTree = "<group>";
 		};
-		A155BFC01F9E38040070A609 /* PushNotificationsTests */ = {
+		A155BFC01F9E38040070A609 /* BeamsChatkitTests */ = {
 			isa = PBXGroup;
 			children = (
 				A18F96E02015F0A200FA35D0 /* ArrayContainsSameElementsTests.swift */,
@@ -259,14 +259,14 @@
 				A15B55CE2029C06D009D6A1A /* MetadataTests.swift */,
 				A1DAD62F2020CEA6001497B5 /* PublishIdTests.swift */,
 				A19ECF851FCF09A500688DAF /* PushNotificationsNetworkableTests.swift */,
-				A1ED00141F9E392700A029F2 /* PushNotificationsTests-Bridging-Header.h */,
+				A1ED00141F9E392700A029F2 /* BeamsChatkitTests-Bridging-Header.h */,
 				A12B36EB2020DBA40038E59F /* ReasonTests.swift */,
 				A11E83342021D014009C09EF /* RegisterTests.swift */,
 				A125B64A2020DCC3002E0809 /* SDKTests.swift */,
 				A1DAD6352020D4D1001497B5 /* SystemVersionTests.swift */,
 				A1482A59218326AE00F19A4E /* UserPersistableTests.swift */,
 			);
-			path = PushNotificationsTests;
+			path = BeamsChatkitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +283,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A155BFB21F9E38040070A609 /* PushNotifications */ = {
+		A155BFB21F9E38040070A609 /* BeamsChatkit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A155BFC71F9E38040070A609 /* Build configuration list for PBXNativeTarget "PushNotifications" */;
+			buildConfigurationList = A155BFC71F9E38040070A609 /* Build configuration list for PBXNativeTarget "BeamsChatkit" */;
 			buildPhases = (
 				A155BFAE1F9E38040070A609 /* Sources */,
 				A155BFAF1F9E38040070A609 /* Frameworks */,
@@ -296,14 +296,14 @@
 			);
 			dependencies = (
 			);
-			name = PushNotifications;
+			name = BeamsChatkit;
 			productName = PushNotifications;
-			productReference = A155BFB31F9E38040070A609 /* PushNotifications.framework */;
+			productReference = A155BFB31F9E38040070A609 /* BeamsChatkit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A155BFBB1F9E38040070A609 /* PushNotificationsTests */ = {
+		A155BFBB1F9E38040070A609 /* BeamsChatkitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A155BFCA1F9E38040070A609 /* Build configuration list for PBXNativeTarget "PushNotificationsTests" */;
+			buildConfigurationList = A155BFCA1F9E38040070A609 /* Build configuration list for PBXNativeTarget "BeamsChatkitTests" */;
 			buildPhases = (
 				A155BFB81F9E38040070A609 /* Sources */,
 				A155BFB91F9E38040070A609 /* Frameworks */,
@@ -315,9 +315,9 @@
 			dependencies = (
 				A155BFBF1F9E38040070A609 /* PBXTargetDependency */,
 			);
-			name = PushNotificationsTests;
+			name = BeamsChatkitTests;
 			productName = PushNotificationsTests;
-			productReference = A155BFBC1F9E38040070A609 /* PushNotificationsTests.xctest */;
+			productReference = A155BFBC1F9E38040070A609 /* BeamsChatkitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -342,7 +342,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A155BFAD1F9E38040070A609 /* Build configuration list for PBXProject "PushNotifications" */;
+			buildConfigurationList = A155BFAD1F9E38040070A609 /* Build configuration list for PBXProject "BeamsChatkit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -354,8 +354,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A155BFB21F9E38040070A609 /* PushNotifications */,
-				A155BFBB1F9E38040070A609 /* PushNotificationsTests */,
+				A155BFB21F9E38040070A609 /* BeamsChatkit */,
+				A155BFBB1F9E38040070A609 /* BeamsChatkitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -390,7 +390,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "case \"$PLATFORM_NAME\" in\nmacosx) plat=Mac;;\niphone*) plat=iOS;;\nwatch*) plat=watchOS;;\ntv*) plat=tvOS;;\nappletv*) plat=tvOS;;\n*) echo \"error: Unknown PLATFORM_NAME: $PLATFORM_NAME\"; exit 1;;\nesac\nfor (( n = 0; n < SCRIPT_INPUT_FILE_COUNT; n++ )); do\nVAR=SCRIPT_INPUT_FILE_$n\nframework=$(basename \"${!VAR}\")\nexport SCRIPT_INPUT_FILE_$n=../Carthage/Build/$plat/\"$framework\".framework\ndone\n\n/usr/local/bin/carthage copy-frameworks || exit\n\nfor (( n = 0; n < SCRIPT_INPUT_FILE_COUNT; n++ )); do\nVAR=SCRIPT_INPUT_FILE_$n\nsource=${!VAR}.dSYM\ndest=${BUILT_PRODUCTS_DIR}/$(basename \"$source\")\nditto \"$source\" \"$dest\" || exit\ndone";
+			shellScript = "case \"$PLATFORM_NAME\" in\nmacosx) plat=Mac;;\niphone*) plat=iOS;;\nwatch*) plat=watchOS;;\ntv*) plat=tvOS;;\nappletv*) plat=tvOS;;\n*) echo \"error: Unknown PLATFORM_NAME: $PLATFORM_NAME\"; exit 1;;\nesac\nfor (( n = 0; n < SCRIPT_INPUT_FILE_COUNT; n++ )); do\nVAR=SCRIPT_INPUT_FILE_$n\nframework=$(basename \"${!VAR}\")\nexport SCRIPT_INPUT_FILE_$n=../Carthage/Build/$plat/\"$framework\".framework\ndone\n\n/usr/local/bin/carthage copy-frameworks || exit\n\nfor (( n = 0; n < SCRIPT_INPUT_FILE_COUNT; n++ )); do\nVAR=SCRIPT_INPUT_FILE_$n\nsource=${!VAR}.dSYM\ndest=${BUILT_PRODUCTS_DIR}/$(basename \"$source\")\nditto \"$source\" \"$dest\" || exit\ndone\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -472,7 +472,7 @@
 /* Begin PBXTargetDependency section */
 		A155BFBF1F9E38040070A609 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A155BFB21F9E38040070A609 /* PushNotifications */;
+			target = A155BFB21F9E38040070A609 /* BeamsChatkit */;
 			targetProxy = A155BFBE1F9E38040070A609 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -600,6 +600,7 @@
 		A155BFC81F9E38040070A609 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -608,12 +609,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PushNotifications/Info.plist;
+				INFOPLIST_FILE = BeamsChatkit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pusher.PushNotifications;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pusher.BeamsChatkit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = "";
 				SKIP_INSTALL = YES;
@@ -627,6 +628,7 @@
 		A155BFC91F9E38040070A609 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -635,12 +637,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PushNotifications/Info.plist;
+				INFOPLIST_FILE = BeamsChatkit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pusher.PushNotifications;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pusher.BeamsChatkit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = "";
 				SKIP_INSTALL = YES;
@@ -672,16 +674,16 @@
 					../Carthage/Build/Mac/,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PushNotificationsTests/Info.plist;
+				INFOPLIST_FILE = BeamsChatkitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pusher.PushNotificationsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pusher.BeamsChatkitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REEXPORTED_FRAMEWORK_NAMES = "";
 				SDKROOT = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				SWIFT_OBJC_BRIDGING_HEADER = "PushNotificationsTests/PushNotificationsTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeamsChatkitTests/BeamsChatkitTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -710,16 +712,16 @@
 					../Carthage/Build/Mac/,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PushNotificationsTests/Info.plist;
+				INFOPLIST_FILE = BeamsChatkitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pusher.PushNotificationsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pusher.BeamsChatkitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REEXPORTED_FRAMEWORK_NAMES = "";
 				SDKROOT = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				SWIFT_OBJC_BRIDGING_HEADER = "PushNotificationsTests/PushNotificationsTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeamsChatkitTests/BeamsChatkitTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -728,7 +730,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A155BFAD1F9E38040070A609 /* Build configuration list for PBXProject "PushNotifications" */ = {
+		A155BFAD1F9E38040070A609 /* Build configuration list for PBXProject "BeamsChatkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A155BFC51F9E38040070A609 /* Debug */,
@@ -737,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A155BFC71F9E38040070A609 /* Build configuration list for PBXNativeTarget "PushNotifications" */ = {
+		A155BFC71F9E38040070A609 /* Build configuration list for PBXNativeTarget "BeamsChatkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A155BFC81F9E38040070A609 /* Debug */,
@@ -746,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A155BFCA1F9E38040070A609 /* Build configuration list for PBXNativeTarget "PushNotificationsTests" */ = {
+		A155BFCA1F9E38040070A609 /* Build configuration list for PBXNativeTarget "BeamsChatkitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A155BFCB1F9E38040070A609 /* Debug */,
