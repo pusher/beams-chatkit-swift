@@ -115,7 +115,7 @@ import Foundation
                 return completion(TokenProviderError.error("[PushNotifications] - User id is nil."))
             }
 
-            #warning("TODO: Changing user ids is an error!")
+            // TODO: Changing user ids is an error!
 
             guard let deviceId = Device.getDeviceId() else {
                 return completion(TokenProviderError.error("[PushNotifications] - Device id is nil."))
