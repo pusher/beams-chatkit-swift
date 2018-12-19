@@ -5,17 +5,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/pusher/push-notifications-swift/compare/1.1.0...HEAD)
+## [Unreleased](https://github.com/pusher/push-notifications-swift/compare/1.2.3...HEAD)
+
+## [1.2.3](https://github.com/pusher/push-notifications-swift/compare/1.2.2...1.2.3) - 2018-11-30
+
+### Fixed
+
+- The `instanceId` is fetched from storage when `registerDeviceToken` is called
+
+## [1.2.2](https://github.com/pusher/push-notifications-swift/compare/1.2.1...1.2.2) - 2018-11-30
+
+### Fixed
+
+- Replace shared framework scheme
+
+## [1.2.1](https://github.com/pusher/push-notifications-swift/compare/1.2.0...1.2.1) - 2018-11-30
+
+### Changed
+
+- Rename everything to `BeamsChatkit`
+
+## [1.2.0](https://github.com/pusher/push-notifications-swift/compare/1.1.0...1.2.0) - 2018-11-30
+
+### Changed
+
+- Made required changes to get it working across all platforms for [chatkit-swift](https://github.com/pusher/chatkit-swift)
 
 ## [1.1.0](https://github.com/pusher/push-notifications-swift/compare/1.0.1...1.1.0) - 2018-09-20
 
-## Added
+### Added
 
 - Compatibility with Xcode 10.0
 
 ## [1.0.1](https://github.com/pusher/push-notifications-swift/compare/1.0.0...1.0.1) - 2018-08-22
 
-## Changed
+### Changed
 
 - Minor internal improvements.
 
