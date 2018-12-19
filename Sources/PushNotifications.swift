@@ -200,7 +200,6 @@ import Foundation
         if Device.idAlreadyPresent() {
             // If we have the device id that means that the token has already been registered.
             // Therefore we don't need to call `networkService.register` again.
-            print("[Push Notifications] - Warning: Avoid multiple calls of `registerDeviceToken`")
             return
         }
 
