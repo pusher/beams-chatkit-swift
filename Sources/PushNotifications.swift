@@ -191,7 +191,7 @@ import Foundation
             let instanceId = Instance.getInstanceId(),
             let url = URL(string: "https://\(instanceId).pushnotifications.pusher.com/device_api/v1/instances/\(instanceId)/devices/apns")
         else {
-            print("[Push Notifications] - Something went wrong. Please check your instance id: \(String(describing: Instance.getInstanceId()))")
+            print("Unable to register device token with Chatkit. This is likely because you registered for remote notifications before calling currentUser.enablePushNotifications. This can likely be ignored.")
             return
         }
 
@@ -212,28 +212,28 @@ import Foundation
             }
 
             strongSelf.persistenceStorageOperationQueue.async {
-                if Device.idAlreadyPresent() {
-                    print("[Push Notifications] - Warning: Avoid multiple calls of `registerDeviceToken`")
-                } else {
-                    Device.persist(device.id)
-
-                    let initialInterestSet = device.initialInterestSet ?? []
-                    let persistenceService: InterestPersistable = PersistenceService(service: UserDefaults(suiteName: Constants.UserDefaults.suiteName)!)
-                    if initialInterestSet.count > 0 {
-                        persistenceService.persist(interests: initialInterestSet)
-                    }
-
-                    strongSelf.preIISOperationQueue.async {
-                        let interests = persistenceService.getSubscriptions() ?? []
-                        if !initialInterestSet.containsSameElements(as: interests) {
-                            strongSelf.syncInterests()
-                        }
-
-                        completion()
-                    }
-
-                    strongSelf.preIISOperationQueue.resume()
+                guard !Device.idAlreadyPresent() else {
+                    return
                 }
+
+                Device.persist(device.id)
+
+                let initialInterestSet = device.initialInterestSet ?? []
+                let persistenceService: InterestPersistable = PersistenceService(service: UserDefaults(suiteName: Constants.UserDefaults.suiteName)!)
+                if initialInterestSet.count > 0 {
+                    persistenceService.persist(interests: initialInterestSet)
+                }
+
+                strongSelf.preIISOperationQueue.async {
+                    let interests = persistenceService.getSubscriptions() ?? []
+                    if !initialInterestSet.containsSameElements(as: interests) {
+                        strongSelf.syncInterests()
+                    }
+
+                    completion()
+                }
+
+                strongSelf.preIISOperationQueue.resume()
             }
         }
     }
