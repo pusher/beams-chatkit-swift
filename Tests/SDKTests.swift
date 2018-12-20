@@ -5,6 +5,6 @@ class SDKTests: XCTestCase {
     func testVersionModel() {
         let version = SDK.version
         XCTAssertNotNil(version)
-        XCTAssertEqual(version, "1.2.3")
+        XCTAssertEqual(version, "1.2.4")
     }
 }
